@@ -92,7 +92,7 @@ const applyLabels = async() => {
             obj.assets[asset].push({net_volume});
 
             let label_res;
-            if (net_volume > 0) {
+            if (net_volume !== 0) {
                 //apply revenue label
                 const revenue_id = '18f3bc7a-2165-4cb3-8f4d-6c21fd9ea322';
                 label_res = await labelOperation(mv_ids, revenue_id);
