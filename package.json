@@ -1,0 +1,22 @@
+{
+  "name": "cryptio",
+  "version": "1.0.0",
+  "description": "technical test for the cryptio tech support role",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon --env-file=.env index",
+    "start": "node --env-file=.env index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cryptio",
+    "crypto",
+    "tech",
+    "support"
+  ],
+  "author": "tunde ODUGUWA",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2"
+  }
+}
